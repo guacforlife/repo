@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guacforlife's Repo</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0d1117;
+            color: #e6edf3;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            max-width: 480px;
+            width: 100%;
+            padding: 2rem;
+            text-align: center;
+        }
+        h1 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        .subtitle {
+            color: #8b949e;
+            font-size: 0.9rem;
+            margin-bottom: 2rem;
+        }
+        .repo-url {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            padding: 0.75rem 1rem;
+            font-family: 'SF Mono', SFMono-Regular, Consolas, monospace;
+            font-size: 0.85rem;
+            color: #79c0ff;
+            margin-bottom: 2rem;
+            user-select: all;
+        }
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+        a.btn {
+            display: block;
+            padding: 0.875rem 1.5rem;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 500;
+            text-decoration: none;
+            transition: opacity 0.15s;
+        }
+        a.btn:active { opacity: 0.8; }
+        .btn-sileo {
+            background: #1e90ff;
+            color: #fff;
+        }
+        .btn-zebra {
+            background: #30363d;
+            color: #e6edf3;
+            border: 1px solid #484f58;
+        }
+        .packages {
+            margin-top: 2.5rem;
+            text-align: left;
+        }
+        .packages h2 {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+            color: #8b949e;
+        }
+        .pkg {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            padding: 1rem;
+        }
+        .pkg-name {
+            font-weight: 600;
+            font-size: 1rem;
+        }
+        .pkg-version {
+            color: #8b949e;
+            font-size: 0.85rem;
+        }
+        .pkg-desc {
+            color: #8b949e;
+            font-size: 0.85rem;
+            margin-top: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>guacforlife's Repo</h1>
+        <p class="subtitle">Jailbreak tweaks for Dopamine / Roothide</p>
+        <div class="repo-url">https://guacforlife.github.io/repo/</div>
+        <div class="buttons">
+            <a class="btn btn-sileo" href="sileo://source/https://guacforlife.github.io/repo/">Add to Sileo</a>
+            <a class="btn btn-zebra" href="zbra://sources/add/https://guacforlife.github.io/repo/">Add to Zebra</a>
+        </div>
+        <div class="packages">
+            <h2>Packages</h2>
+            <div class="pkg">
+                <div class="pkg-name">ReynardDefault</div>
+                <div class="pkg-version">v1.3.0</div>
+                <div class="pkg-desc">Redirects Safari URL opens to Reynard browser. Toggle in Settings and Control Centre.</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
