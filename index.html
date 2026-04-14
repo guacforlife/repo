@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>guacforlife's Repo</title>
+    <link rel="icon" type="image/png" href="CydiaIcon.png">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -20,6 +21,14 @@
             width: 100%;
             padding: 2rem;
             text-align: center;
+        }
+        .logo {
+            width: 96px;
+            height: 96px;
+            margin: 0 auto 1rem;
+            border-radius: 22px;
+            display: block;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
         }
         h1 {
             font-size: 1.5rem;
@@ -95,10 +104,19 @@
             font-size: 0.85rem;
             margin-top: 0.5rem;
         }
+        .pkg-source {
+            display: inline-block;
+            margin-top: 0.75rem;
+            color: #79c0ff;
+            font-size: 0.85rem;
+            text-decoration: none;
+        }
+        .pkg-source:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
     <div class="container">
+        <img src="CydiaIcon.png" alt="" class="logo">
         <h1>guacforlife's Repo</h1>
         <p class="subtitle">Jailbreak tweaks for Dopamine / Roothide</p>
         <div class="repo-url">https://guacforlife.github.io/repo/</div>
@@ -112,6 +130,7 @@
                 <div class="pkg-name">ReynardDefault</div>
                 <div class="pkg-version">v1.4.0 &nbsp;·&nbsp; rootless + rootful</div>
                 <div class="pkg-desc">Redirects Safari URL opens to Reynard browser. Toggle in Settings and Control Centre.</div>
+                <a class="pkg-source" href="https://github.com/guacforlife/ReynardDefault">Source →</a>
             </div>
         </div>
     </div>

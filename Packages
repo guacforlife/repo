@@ -5,11 +5,12 @@ Maintainer: guacforlife
 Installed-Size: 572
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Filename: debs/com.guacforlife.reynarddefault_1.4.0_iphoneos-arm64.deb
-Size: 58640
-MD5sum: 21ca80c5a03066733100cabf6c8175a1
-SHA1: bb26eaf8512b87e688375040fecc727e074c0a56
-SHA256: ee957814fb9bf27a0012d2db9e4a7d314eb61c7d6505f21b1bba3270a91366fb
+Size: 58676
+MD5sum: c2ec127ce899ab5edde425b7e754b42d
+SHA1: 5d1a8e64f2c0a8e701c6742debc5e96f9ffa47c1
+SHA256: c638ce9144cc1af6dc9e11287005b6c6a7d6c4c03fb845d2bb7f997c34e14031
 Section: Tweaks
+Homepage: https://github.com/guacforlife/ReynardDefault
 Description: Redirects Safari URL opens to Reynard browser. Toggle in Settings and Control Centre.
 Author: guacforlife
 Name: ReynardDefault
@@ -21,11 +22,12 @@ Maintainer: guacforlife
 Installed-Size: 572
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Filename: debs/com.guacforlife.reynarddefault_1.4.0_iphoneos-arm.deb
-Size: 58560
-MD5sum: 2b8ae26956256f8d49ff1cf4039cdb24
-SHA1: e9ca03a60b5928ee39d4b736f99154b3b518a6c1
-SHA256: 8ec376835c312c7d6d75880e3e6a9c1ee4fb7c6851ffc9f08c9880e136806a86
+Size: 58586
+MD5sum: c002e2cde31c51a61a123a1cc7210343
+SHA1: efd3fac79cd0ca921df251b3736b98ac456cff87
+SHA256: 2208d8da5d87a22d1695a08e0e9a045f0a87722be9a673abc1c9a4266ed4eb8a
 Section: Tweaks
+Homepage: https://github.com/guacforlife/ReynardDefault
 Description: Redirects Safari URL opens to Reynard browser. Toggle in Settings and Control Centre.
 Author: guacforlife
 Name: ReynardDefault
