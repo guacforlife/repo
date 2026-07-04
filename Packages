@@ -1,3 +1,19 @@
+Package: com.guacforlife.pinslim
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: guacforlife
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.guacforlife.pinslim_1.0.0_iphoneos-arm64.deb
+Size: 3056
+MD5sum: 58e6e98d5b43d0630b1d96eb43e9093f
+SHA1: 69dabe7289f62ab69b5e7de48a294878734616c7
+SHA256: bc1921c0d9886d56568d9736cf19be21525c78ea87f621b6cb7e0c0cffab153e
+Section: Tweaks
+Description: Shrinks the pinned-conversations grid in Messages so the pins take less room.
+Author: guacforlife
+Name: PinSlim
+
 Package: com.guacforlife.polyfillsauthfix
 Version: 1.0.0
 Architecture: iphoneos-arm64
