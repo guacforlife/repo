@@ -1,3 +1,19 @@
+Package: com.guacforlife.mapsrecentre
+Version: 0.2.0
+Architecture: iphoneos-arm64
+Maintainer: guacforlife
+Installed-Size: 204
+Depends: mobilesubstrate
+Filename: debs/com.guacforlife.mapsrecentre_0.2.0_iphoneos-arm64.deb
+Size: 22610
+MD5sum: 8f11ba0fb5e7e88fbbdc29370b04f883
+SHA1: 472f7b4df7f5f96ae39b8599f87dea1550228af9
+SHA256: ea5338dba9b526bb72d51dedf80a59b452239b536403503fed6ab0521a121e57
+Section: Tweaks
+Description: Auto-recentres the Google Maps camera after you pan away during navigation, and can press Start for you on Siri-initiated directions.
+Author: guacforlife
+Name: MapsRecentre
+
 Package: com.guacforlife.pinslim
 Version: 1.0.0
 Architecture: iphoneos-arm64
