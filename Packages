@@ -96,19 +96,19 @@ Description: Redirects Safari URL opens to Reynard browser. Toggle in Settings a
 Author: guacforlife
 Name: ReynardDefault
 
-Package: com.guacforlife.tweakiotab
+Package: com.guacforlife.tweakiohold
 Version: 0.1.0
 Architecture: iphoneos-arm64
 Maintainer: guacforlife
 Installed-Size: 352
 Depends: mobilesubstrate, preferenceloader, com.spartacus.tweakio
-Filename: debs/com.guacforlife.tweakiotab_0.1.0_iphoneos-arm64.deb
-Size: 15756
-MD5sum: 78124ceec83c2f53d86c4bf8befa0c0f
-SHA1: 296a3cb69e58d373b97342a7d6059fabde584789
-SHA256: 0023cec07b3631218a0691daddcf17fb337399a74f0340acf64392146ee6e33a
+Filename: debs/com.guacforlife.tweakiohold_0.1.0_iphoneos-arm64.deb
+Size: 15758
+MD5sum: 162befce301402af82770222e04446ba
+SHA1: 22f37ce36bef3f569b5b5576523651dc5d6677a2
+SHA256: 304e97244bef847abc1f3294500333cff3845b045f666539dd09c5dd1245e45c
 Section: Tweaks
 Description: Long-press Sileo's Search tab to jump straight to Tweakio; a normal tap still opens Sileo's own search. An iPhone tab bar shows only five items and Sileo already uses all five, so Tweakio shares the Search tab rather than taking one. Also exposes Tweakio's hidden preferences, including the "sileo hooking method" key this needs set to 1.
 Author: guacforlife
-Name: TweakioTab
+Name: TweakioHold
 
