@@ -112,6 +112,21 @@ Description: Redirects Safari URL opens to Reynard browser. Toggle in Settings a
 Author: guacforlife
 Name: ReynardDefault
 
+Package: com.guacforlife.roothidedebarchiver
+Version: 1.1.4
+Architecture: iphoneos-arm64
+Maintainer: guacforlife
+Installed-Size: 208
+Filename: debs/com.guacforlife.roothidedebarchiver_1.1.4_iphoneos-arm64.deb
+Size: 19020
+MD5sum: 55bf3ca2aa5bcf96d8c0130f94eb229c
+SHA1: 987ca916381e4ee69c20f1aec6aa16c57a23904e
+SHA256: 36e5b996d8406f2b06464a9a6e4ba39929f1d522e5868e19fb183ae8a29e07f0
+Section: System
+Description: Watches the RootHide Patcher deb cache, mirrors new packages into iCloud Drive, and publishes the cache as a local Sileo repo on 127.0.0.1:8140.
+Author: guacforlife
+Name: RootHideDebArchiver
+
 Package: com.guacforlife.tweakiohold
 Version: 0.1.0
 Architecture: iphoneos-arm64
