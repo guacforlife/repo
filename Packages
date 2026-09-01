@@ -118,10 +118,10 @@ Architecture: iphoneos-arm64
 Maintainer: guacforlife
 Installed-Size: 208
 Filename: debs/com.guacforlife.roothidedebarchiver_1.1.4_iphoneos-arm64.deb
-Size: 19020
-MD5sum: 55bf3ca2aa5bcf96d8c0130f94eb229c
-SHA1: 987ca916381e4ee69c20f1aec6aa16c57a23904e
-SHA256: 36e5b996d8406f2b06464a9a6e4ba39929f1d522e5868e19fb183ae8a29e07f0
+Size: 19104
+MD5sum: 73d194b3db2923524015971647ce4619
+SHA1: 5e539f06c1cf00f09723badd63f8c6740c330587
+SHA256: d441de1a9a5d46af61723831cdf22625117e1cb0de33ca4ac8db368ca277e33c
 Section: System
 Description: Watches the RootHide Patcher deb cache, mirrors new packages into iCloud Drive, and publishes the cache as a local Sileo repo on 127.0.0.1:8140.
 Author: guacforlife
