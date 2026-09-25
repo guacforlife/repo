@@ -7,7 +7,7 @@ disagree with what Sileo actually installs.
 """
 import html, io, re, sys
 
-ARCH = {'iphoneos-arm64': 'rootless', 'iphoneos-arm': 'rootful'}
+ARCH = {'iphoneos-arm64e': 'roothide', 'iphoneos-arm64': 'rootless', 'iphoneos-arm': 'rootful'}
 # Depends every tweak has; not worth showing as a requirement.
 BORING = {'mobilesubstrate', 'preferenceloader', 'firmware'}
 

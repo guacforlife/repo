@@ -127,6 +127,38 @@ Description: Watches the RootHide Patcher deb cache, mirrors new packages into i
 Author: guacforlife
 Name: RootHideDebArchiver
 
+Package: com.guacforlife.sentinelios17fix
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: guacforlife
+Installed-Size: 168
+Depends: firmware (>= 17.0), mobilesubstrate, xyz.cypwn.sentinel
+Filename: debs/com.guacforlife.sentinelios17fix_1.0.0_iphoneos-arm64e.deb
+Size: 3204
+MD5sum: faaf85604e1b351185d0634704a5c81a
+SHA1: 28597f105a0503ffee2eec5adb8253dcae2ab429
+SHA256: 9ada58a2c2dd3973c45c8eee784f2442ab7ef3e0a70989e2b1605b8702b7d0b7
+Section: Tweaks
+Description: Stops Sentinel (xyz.cypwn.sentinel) crashing SpringBoard into safe mode on iOS 17 when it enters its fake shutdown, by restoring the ringer selector it calls.
+Author: guacforlife
+Name: SentinelIOS17Fix
+
+Package: com.guacforlife.sentinelios17fix
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: guacforlife
+Installed-Size: 168
+Depends: firmware (>= 17.0), mobilesubstrate, xyz.cypwn.sentinel
+Filename: debs/com.guacforlife.sentinelios17fix_1.0.0_iphoneos-arm64.deb
+Size: 3264
+MD5sum: ab68de67048e9afd1422566c3acc63c6
+SHA1: ef471af6c3463cf3b7f8fe562667103a9ba993f0
+SHA256: 2f8568ce1f7bd13f92e0a6dd232f59beb9f68df5e7e43fa2258a68d96bc9cc95
+Section: Tweaks
+Description: Stops Sentinel (xyz.cypwn.sentinel) crashing SpringBoard into safe mode on iOS 17 when it enters its fake shutdown, by restoring the ringer selector it calls.
+Author: guacforlife
+Name: SentinelIOS17Fix
+
 Package: com.guacforlife.tweakiohold
 Version: 0.1.0
 Architecture: iphoneos-arm64
