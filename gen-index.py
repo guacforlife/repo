@@ -10,6 +10,8 @@ import html, io, re, sys
 ARCH = {'iphoneos-arm64e': 'roothide', 'iphoneos-arm64': 'rootless', 'iphoneos-arm': 'rootful'}
 # Depends every tweak has; not worth showing as a requirement.
 BORING = {'mobilesubstrate', 'preferenceloader', 'firmware'}
+# Packages built from another package's repo; the rest live at guacforlife/<Name>.
+SOURCE_REPO = {'ps': 'pstat', 'ptop': 'pstat'}
 
 
 def records(path='Packages'):
@@ -65,7 +67,7 @@ def render(r):
                 <div class="pkg-name">{e(name)}</div>
                 <div class="pkg-version">{meta}</div>
                 <div class="pkg-desc">{e(desc)}</div>
-                <a class="pkg-source" href="https://github.com/guacforlife/{e(name)}">Source →</a>
+                <a class="pkg-source" href="https://github.com/guacforlife/{e(SOURCE_REPO.get(name, name))}">Source →</a>
             </div>'''
 
 

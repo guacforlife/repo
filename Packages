@@ -78,6 +78,53 @@ Description: Stops PoomSmart's Polyfills "Header Injection" from proxying all we
 Author: guacforlife
 Name: PolyfillsAuthFix
 
+Package: com.guacforlife.ps
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: guacforlife
+Installed-Size: 136
+Breaks: com.guacforlife.pstat (<< 1.1.0)
+Replaces: com.guacforlife.pstat (<< 1.1.0)
+Filename: debs/com.guacforlife.ps_1.0.0_iphoneos-arm64.deb
+Size: 11868
+MD5sum: ee5628a83075e2ed5e9f845f7230c04a
+SHA1: ac1361b2801f2132cab20033bafa1a05cadb0d82
+SHA256: b76fa038ef8b15072b8ceffa3b42f992214da5506e39468c22641c155ad744aa
+Section: System
+Description: macOS-style ps with real CPU, memory and footprint for every process, including root daemons (ps aux, -ef, -o, -p ...). Installed setuid root, like Apple's ps. Rootless and roothide.
+Author: guacforlife
+Name: ps
+
+Package: com.guacforlife.pstat
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: guacforlife
+Installed-Size: 168
+Filename: debs/com.guacforlife.pstat_1.1.0_iphoneos-arm64.deb
+Size: 8796
+MD5sum: dfa1547974ec4643d003444bf7a2127c
+SHA1: 67bd427877fc60a4beb2704f045d3a375a5eec80
+SHA256: cc11108c24548650c30badcdf6cb9b4408da74a3b70e54af08981e0d7ee02d4f
+Section: System
+Description: Samples per-process CPU, energy (mW) and memory over an interval, with GPU utilisation, battery-gauge system load, thermal state and battery; pstat -d dumps an IOKit service's properties. Installed setuid root. Rootless and roothide.
+Author: guacforlife
+Name: pstat
+
+Package: com.guacforlife.ptop
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: guacforlife
+Installed-Size: 168
+Filename: debs/com.guacforlife.ptop_1.0.0_iphoneos-arm64.deb
+Size: 13920
+MD5sum: 8fb39466efce3a082b839bce7b006709
+SHA1: 0bc5c2ff5179b820b99cd5b6fe4091594a4c7d1e
+SHA256: de1f7cf6103585be7a6313483e600e3f085ca60b8a138673f4e72ecef8dd453a
+Section: System
+Description: A macOS-style top under its own name (ptop), so it never replaces a stock top. Per-process CPU, footprint, energy (mW) and suspended apps; memory, swap, battery, thermal and GPU in the header. Interactive, or plain text with -l. Installed setuid root. Rootless and roothide.
+Author: guacforlife
+Name: ptop
+
 Package: com.guacforlife.reynarddefault
 Version: 1.5.0
 Architecture: iphoneos-arm
