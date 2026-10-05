@@ -10,8 +10,9 @@ import html, io, re, sys
 ARCH = {'iphoneos-arm64e': 'roothide', 'iphoneos-arm64': 'rootless', 'iphoneos-arm': 'rootful'}
 # Depends every tweak has; not worth showing as a requirement.
 BORING = {'mobilesubstrate', 'preferenceloader', 'firmware'}
-# Packages built from another package's repo; the rest live at guacforlife/<Name>.
-SOURCE_REPO = {'ps': 'pstat', 'ptop': 'pstat'}
+# Packages whose source repo is private get no source link; the rest live at
+# guacforlife/<Name>.
+PRIVATE_SOURCE = {'ps', 'ptop', 'pstat', 'SentinelIOS17Fix'}
 
 
 def records(path='Packages'):
@@ -63,11 +64,12 @@ def render(r):
     meta = ' &nbsp;·&nbsp; '.join(bits)
     # Description's first sentence keeps the card readable; the rest is in Sileo.
     desc = r.get('Description', '').strip()
+    source = '' if name in PRIVATE_SOURCE else (
+        f'\n                <a class="pkg-source" href="https://github.com/guacforlife/{e(name)}">Source →</a>')
     return f'''            <div class="pkg">
                 <div class="pkg-name">{e(name)}</div>
                 <div class="pkg-version">{meta}</div>
-                <div class="pkg-desc">{e(desc)}</div>
-                <a class="pkg-source" href="https://github.com/guacforlife/{e(SOURCE_REPO.get(name, name))}">Source →</a>
+                <div class="pkg-desc">{e(desc)}</div>{source}
             </div>'''
 
 
