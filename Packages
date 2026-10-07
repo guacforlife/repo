@@ -174,6 +174,21 @@ Description: Watches the RootHide Patcher deb cache, mirrors new packages into i
 Author: guacforlife
 Name: RootHideDebArchiver
 
+Package: com.guacforlife.screencap
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: guacforlife
+Installed-Size: 168
+Filename: debs/com.guacforlife.screencap_1.0.0_iphoneos-arm64.deb
+Size: 6810
+MD5sum: fbf4c25c45161a28212bfd9317042e35
+SHA1: cb18bf5cde63db2e47e65a82d64beba3bb975524
+SHA256: 3077d8a62ad63e125b344349269e59134013254cad584385d4766a6805fb77d7
+Section: Utilities
+Description: Screenshot from the command line, like Android's screencap. Writes a PNG or JPEG of the screen to a file or stdout, so "ssh phone screencap > shot.png" works without a cable or a Mac. Rootless and roothide.
+Author: guacforlife
+Name: screencap
+
 Package: com.guacforlife.sentinelios17fix
 Version: 1.0.0
 Architecture: iphoneos-arm64e
