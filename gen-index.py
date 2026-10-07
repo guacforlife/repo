@@ -12,7 +12,7 @@ ARCH = {'iphoneos-arm64e': 'roothide', 'iphoneos-arm64': 'rootless', 'iphoneos-a
 BORING = {'mobilesubstrate', 'preferenceloader', 'firmware'}
 # Packages whose source repo is private get no source link; the rest live at
 # guacforlife/<Name>.
-PRIVATE_SOURCE = {'ps', 'ptop', 'pstat', 'SentinelIOS17Fix'}
+PRIVATE_SOURCE = {'ps', 'ptop', 'pstat', 'SentinelIOS17Fix', 'VCamGate'}
 
 
 def records(path='Packages'):
