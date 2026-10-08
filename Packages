@@ -269,18 +269,18 @@ Author: guacforlife
 Name: TweakioHold
 
 Package: com.guacforlife.vcamgate
-Version: 1.0.0
+Version: 1.1.0
 Architecture: iphoneos-arm64
 Maintainer: guacforlife
-Installed-Size: 360
+Installed-Size: 396
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: debs/com.guacforlife.vcamgate_1.0.0_iphoneos-arm64.deb
-Size: 18334
-MD5sum: 3f81013ab4efcb1763ee2c8211b859ca
-SHA1: 64eb3176061763fa4ac3f51c45ee19cd0abfcbbb
-SHA256: 2695eae63a25a8aec8876aed1fda4f5bacafbeb1bd70074e6f997ea513a36d35
+Filename: debs/com.guacforlife.vcamgate_1.1.0_iphoneos-arm64.deb
+Size: 29722
+MD5sum: b0b4f8ecb3b590782eae07f1dbb32007
+SHA1: a3b3e6643f8f5935a2c8b648eac896f2e5ce3715
+SHA256: 46df45cd004b72ed46eaf9f40c87fb9bb6edee1d85a52b1434e22c1a2f26d95e
 Section: Tweaks
-Description: Companion for Virtual Cam (com.551uk.virtualcam). Turns the virtual camera on only while an app you pick is in front, and stops Settings crashing on Virtual Cam's Tweaks entry.
+Description: Companion for Virtual Cam (com.551uk.virtualcam). Turns the virtual camera on only while an app you pick is in front, can give each app its own photo or video, and stops Settings crashing on Virtual Cam's Tweaks entry.
 Author: guacforlife
 Name: VCamGate
 
