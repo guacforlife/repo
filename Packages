@@ -205,6 +205,21 @@ Description: Screenshot from the command line, like Android's screencap. Writes 
 Author: guacforlife
 Name: screencap
 
+Package: com.guacforlife.screencap
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: guacforlife
+Installed-Size: 200
+Filename: debs/com.guacforlife.screencap_1.0.0_iphoneos-arm64e.deb
+Size: 6332
+MD5sum: c53dd5f648e9946072d2096e9302b22a
+SHA1: 0ee592ca513305d1c99f8265b9089553b7a5c325
+SHA256: 313e23f298982e0e29917a315a762dbdae3d2e3b5f55140254e1ba84e3b28b31
+Section: Utilities
+Description: Screenshot from the command line, like Android's screencap. Writes a PNG or JPEG of the screen to a file or stdout, so "ssh phone screencap > shot.png" works without a cable or a Mac. Rootless and roothide.
+Author: guacforlife
+Name: screencap
+
 Package: com.guacforlife.sentinelios17fix
 Version: 1.0.0
 Architecture: iphoneos-arm64e
