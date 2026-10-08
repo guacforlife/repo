@@ -1,3 +1,19 @@
+Package: com.guacforlife.autounlock
+Version: 0.2.0
+Architecture: iphoneos-arm64
+Maintainer: guacforlife
+Installed-Size: 340
+Depends: mobilesubstrate
+Filename: debs/com.guacforlife.autounlock_0.2.0_iphoneos-arm64.deb
+Size: 14846
+MD5sum: 3cf79ae6a328953083aa77e414aeb92d
+SHA1: 42c998860690be94c641ea66f8edbe879ef27a71
+SHA256: 9d3560fb0e74553313f9761d95605301667b1f22dcefc776a3312be09128fa41
+Section: Tweaks
+Description: Enters your passcode once after a respring, or when "autounlock now" asks, so a tweak deploy does not leave the phone at the lock screen. Store it with "autounlock set". A wrong passcode is tried once, then auto-unlock stays off until you set it again.
+Author: guacforlife
+Name: AutoUnlock
+
 Package: com.guacforlife.debautopatcher
 Version: 0.1.0
 Architecture: iphoneos-arm64
