@@ -32,6 +32,22 @@ Name: AutoUnlock
 
 Package: com.guacforlife.debautopatcher
 Version: 0.1.0
+Architecture: iphoneos-arm64e
+Maintainer: guacforlife
+Installed-Size: 480
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.guacforlife.debautopatcher_0.1.0_iphoneos-arm64e.deb
+Size: 29204
+MD5sum: d775de0cff1b647ca6faf21eed82fe8b
+SHA1: 5aebbdb1a69a28945a565d410b11779c64afe9a4
+SHA256: 5c789957a53e8f0c03f82d8a48a97f6a9fe7cf31c8d01757662732d0ff91b118
+Section: Tweaks
+Description: Automates the Sileo -> RootHide Patcher -> Sileo flow for tweaks that need roothide conversion. Accepts Sileo's "Not Updated" prompt, waits a cancellable 1.5s so the conversion options can still be changed, activates Convert .deb, hands the result back to Sileo, and taps Get — stopping at the confirm screen.
+Author: guacforlife
+Name: SileoDebAutoPatcher
+
+Package: com.guacforlife.debautopatcher
+Version: 0.1.0
 Architecture: iphoneos-arm64
 Maintainer: guacforlife
 Installed-Size: 416
@@ -304,6 +320,21 @@ Name: ReynardDefault
 
 Package: com.guacforlife.roothidedebarchiver
 Version: 1.1.4
+Architecture: iphoneos-arm64e
+Maintainer: guacforlife
+Installed-Size: 240
+Filename: debs/com.guacforlife.roothidedebarchiver_1.1.4_iphoneos-arm64e.deb
+Size: 18362
+MD5sum: 4c935c72da1806cb4e1b14dc39aafbf6
+SHA1: 8d814b1cbfae657cd03d00fb2c713d61f14f79e4
+SHA256: a76c4a6c66302b9551488a1ff8c3ec7a7e80d646bc9140cb5e254b30f024fc12
+Section: System
+Description: Watches the RootHide Patcher deb cache, mirrors new packages into iCloud Drive, and publishes the cache as a local Sileo repo on 127.0.0.1:8140.
+Author: guacforlife
+Name: RootHideDebArchiver
+
+Package: com.guacforlife.roothidedebarchiver
+Version: 1.1.4
 Architecture: iphoneos-arm64
 Maintainer: guacforlife
 Installed-Size: 208
@@ -378,6 +409,22 @@ Section: Tweaks
 Description: Stops Sentinel (xyz.cypwn.sentinel) crashing SpringBoard into safe mode on iOS 17 when it enters its fake shutdown, by restoring the ringer selector it calls.
 Author: guacforlife
 Name: SentinelIOS17Fix
+
+Package: com.guacforlife.tweakiohold
+Version: 0.1.0
+Architecture: iphoneos-arm64e
+Maintainer: guacforlife
+Installed-Size: 416
+Depends: mobilesubstrate, preferenceloader, com.spartacus.tweakio
+Filename: debs/com.guacforlife.tweakiohold_0.1.0_iphoneos-arm64e.deb
+Size: 15034
+MD5sum: 14502c4ce0ad72ca328fb0cc91e35a65
+SHA1: 12887c84b4102f7602596c2ed2b5eeadada5d82a
+SHA256: b778d7f731edca79545d34fa4a65e5098c6411b632e719e7092c3cb9c40e7c55
+Section: Tweaks
+Description: Long-press Sileo's Search tab to jump straight to Tweakio; a normal tap still opens Sileo's own search. An iPhone tab bar shows only five items and Sileo already uses all five, so Tweakio shares the Search tab rather than taking one. Also exposes Tweakio's hidden preferences, including the "sileo hooking method" key this needs set to 1.
+Author: guacforlife
+Name: TweakioHold
 
 Package: com.guacforlife.tweakiohold
 Version: 0.1.0
