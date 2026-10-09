@@ -444,6 +444,38 @@ Description: Long-press Sileo's Search tab to jump straight to Tweakio; a normal
 Author: guacforlife
 Name: TweakioHold
 
+Package: com.guacforlife.tweakiosearchfix
+Version: 0.1.0
+Architecture: iphoneos-arm64e
+Maintainer: guacforlife
+Installed-Size: 204
+Depends: mobilesubstrate, com.spartacus.tweakio
+Filename: debs/com.guacforlife.tweakiosearchfix_0.1.0_iphoneos-arm64e.deb
+Size: 8208
+MD5sum: 23778c1408eb9186bc827b8d2c511892
+SHA1: 353d58f1a499ef860e9663dee9a54bf6b117a64f
+SHA256: ec4ad4c42b72933a2f160ac475ec904ad536403aece02857b4d385ce30e77508
+Section: Tweaks
+Description: Stops Tweakio search crashing the package manager. Canister moved its API to v4, which renamed the fields the Tweakio Canister plugin reads, so every search with results crashed; and both the Canister and iOS Repo Updates plugins handed their results to Tweakio on a background thread, which crashes in Auto Layout. This maps Canister's new fields back and delivers both plugins' search replies on the main thread. Nothing else is touched.
+Author: guacforlife
+Name: TweakioSearchFix
+
+Package: com.guacforlife.tweakiosearchfix
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Maintainer: guacforlife
+Installed-Size: 172
+Depends: mobilesubstrate, com.spartacus.tweakio
+Filename: debs/com.guacforlife.tweakiosearchfix_0.1.0_iphoneos-arm64.deb
+Size: 8636
+MD5sum: d581dd6a9cdef9190136e9bc57212979
+SHA1: 0d617eaa6f0b6861b417d71f7766de8deb3031a5
+SHA256: 11ca2238ce3d147a820dbd9781f74478231a62f4fcadc1beae33a4d6996cdcf1
+Section: Tweaks
+Description: Stops Tweakio search crashing the package manager. Canister moved its API to v4, which renamed the fields the Tweakio Canister plugin reads, so every search with results crashed; and both the Canister and iOS Repo Updates plugins handed their results to Tweakio on a background thread, which crashes in Auto Layout. This maps Canister's new fields back and delivers both plugins' search replies on the main thread. Nothing else is touched.
+Author: guacforlife
+Name: TweakioSearchFix
+
 Package: com.guacforlife.vcamgate
 Version: 1.1.0
 Architecture: iphoneos-arm64
