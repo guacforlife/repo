@@ -1,14 +1,30 @@
 Package: com.guacforlife.autounlock
-Version: 0.2.0
+Version: 0.3.0
+Architecture: iphoneos-arm64e
+Maintainer: guacforlife
+Installed-Size: 404
+Depends: mobilesubstrate
+Filename: debs/com.guacforlife.autounlock_0.3.0_iphoneos-arm64e.deb
+Size: 14872
+MD5sum: fa6ecfe3b4a66430fe37d8029cf37f74
+SHA1: 321e978b1bb8627c3689d88c82196e3b164324f1
+SHA256: 6e6a455441534aabb4e30ffce3ae31c94b0353f2e3db3c2f7efdccd4fb937bd4
+Section: Tweaks
+Description: Enters your passcode once after a respring, or when "autounlock now" asks, so a tweak deploy does not leave the phone at the lock screen. Store it with "autounlock set". A wrong passcode is tried once, then auto-unlock stays off until you set it again.
+Author: guacforlife
+Name: AutoUnlock
+
+Package: com.guacforlife.autounlock
+Version: 0.3.0
 Architecture: iphoneos-arm64
 Maintainer: guacforlife
 Installed-Size: 340
 Depends: mobilesubstrate
-Filename: debs/com.guacforlife.autounlock_0.2.0_iphoneos-arm64.deb
-Size: 14846
-MD5sum: 3cf79ae6a328953083aa77e414aeb92d
-SHA1: 42c998860690be94c641ea66f8edbe879ef27a71
-SHA256: 9d3560fb0e74553313f9761d95605301667b1f22dcefc776a3312be09128fa41
+Filename: debs/com.guacforlife.autounlock_0.3.0_iphoneos-arm64.deb
+Size: 15614
+MD5sum: 48879ee8a8ee884058b363b0ad143871
+SHA1: 97fd70f7eeafcaa4765a043a40e3a0bd571cffeb
+SHA256: 28572bb9a93a7232614b9646a05e3442934a0cc61f1ba0fff16ddad73df0e328
 Section: Tweaks
 Description: Enters your passcode once after a respring, or when "autounlock now" asks, so a tweak deploy does not leave the phone at the lock screen. Store it with "autounlock set". A wrong passcode is tried once, then auto-unlock stays off until you set it again.
 Author: guacforlife
@@ -46,6 +62,22 @@ Description: Repairs Filza bookmarks and recents that break when roothide's jbro
 Author: guacforlife
 Name: FilzaBookmarkFix
 
+Package: com.guacforlife.filzabookmarkfix
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: guacforlife
+Installed-Size: 204
+Depends: mobilesubstrate
+Filename: debs/com.guacforlife.filzabookmarkfix_1.0.0_iphoneos-arm64e.deb
+Size: 8696
+MD5sum: 81fd7df3b79c2e398bd5afdc8a004ef1
+SHA1: 4dd7ee4f5c0da84b2ca67c6a4042554b51cdb0ca
+SHA256: 06ad310257342bd4f6b6fff17592fddcdfb2d1c9f08f036da1f00d6ae1b9dbc5
+Section: Tweaks
+Description: Repairs Filza bookmarks and recents that break when roothide's jbroot UUID changes. Rewrites stale absolute paths to their jbroot-relative form so they never go stale again.
+Author: guacforlife
+Name: FilzaBookmarkFix
+
 Package: com.guacforlife.mapsrecentre
 Version: 0.2.1
 Architecture: iphoneos-arm64
@@ -57,6 +89,22 @@ Size: 22718
 MD5sum: e20726961b43d7d56268c9a3a3124b0a
 SHA1: 02a53bbaa9ca17e41f88f45a4627d05bf6a6d3f6
 SHA256: 661b6f1aa184e6583a11d6c839ad7c75ef86bead2572e1f2b1dd190a9a2b2472
+Section: Tweaks
+Description: Auto-recentres the Google Maps camera after you pan away during navigation, and can press Start for you on Siri-initiated directions.
+Author: guacforlife
+Name: MapsRecentre
+
+Package: com.guacforlife.mapsrecentre
+Version: 0.2.1
+Architecture: iphoneos-arm64e
+Maintainer: guacforlife
+Installed-Size: 240
+Depends: mobilesubstrate
+Filename: debs/com.guacforlife.mapsrecentre_0.2.1_iphoneos-arm64e.deb
+Size: 22054
+MD5sum: 98e2dd32b8a99913b526920781440969
+SHA1: dde51df845fdceebcf223f64f231d1d30cb2ffda
+SHA256: e5f298babe6023fe6e01ed96fdd4e3162d7502aff656c48de36921e3b8d35af0
 Section: Tweaks
 Description: Auto-recentres the Google Maps camera after you pan away during navigation, and can press Start for you on Siri-initiated directions.
 Author: guacforlife
@@ -78,6 +126,38 @@ Description: Shrinks the pinned-conversations grid in Messages so the pins take 
 Author: guacforlife
 Name: PinSlim
 
+Package: com.guacforlife.pinslim
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: guacforlife
+Installed-Size: 200
+Depends: mobilesubstrate
+Filename: debs/com.guacforlife.pinslim_1.0.0_iphoneos-arm64e.deb
+Size: 2660
+MD5sum: 5af3a65e1ad01c0e723c01f1720019f0
+SHA1: 5f20ab77692a3bfc0e30be55c49ed44adbee904e
+SHA256: fe999da486c5a9762311830216ab6637cd171892b2a62d53081584def980d7fc
+Section: Tweaks
+Description: Shrinks the pinned-conversations grid in Messages so the pins take less room.
+Author: guacforlife
+Name: PinSlim
+
+Package: com.guacforlife.polyfillsauthfix
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: guacforlife
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.guacforlife.polyfillsauthfix_1.0.0_iphoneos-arm64e.deb
+Size: 3138
+MD5sum: 5cc3820a6ac1135b154cf6f310f4a5c3
+SHA1: c9a5fb45950f562ab9a9c657168547c56a3cb9ff
+SHA256: 40e5ab37ad507c71b3e193a3be7400a0621f052eca022b695f3393a7f33002b8
+Section: Tweaks
+Description: Stops PoomSmart's Polyfills "Header Injection" from proxying all web traffic through its custom scheme handler, which breaks strict-auth sites — most visibly new Google account sign-in in Safari and in-app web views — on iOS 11 through 16.3. Forces PolyfillsHeaderInjectionEnabled off in com.apple.UIKit; every JavaScript polyfill keeps working. Harmless if Polyfills isn't installed.
+Author: guacforlife
+Name: PolyfillsAuthFix
+
 Package: com.guacforlife.polyfillsauthfix
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -93,6 +173,23 @@ Section: Tweaks
 Description: Stops PoomSmart's Polyfills "Header Injection" from proxying all web traffic through its custom scheme handler, which breaks strict-auth sites — most visibly new Google account sign-in in Safari and in-app web views — on iOS 11 through 16.3. Forces PolyfillsHeaderInjectionEnabled off in com.apple.UIKit; every JavaScript polyfill keeps working. Harmless if Polyfills isn't installed.
 Author: guacforlife
 Name: PolyfillsAuthFix
+
+Package: com.guacforlife.ps
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: guacforlife
+Installed-Size: 168
+Breaks: com.guacforlife.pstat (<< 1.1.0)
+Replaces: com.guacforlife.pstat (<< 1.1.0)
+Filename: debs/com.guacforlife.ps_1.0.0_iphoneos-arm64e.deb
+Size: 11360
+MD5sum: 43c1dd3f4151668168eedb4d8e604070
+SHA1: ec824c801b4808f76d3ef447b56211214296e253
+SHA256: f0ac5a20cdcd5d179af8cefedf28b94af1096147f3e6bb6f170a0cf0fbc8e6ae
+Section: System
+Description: macOS-style ps with real CPU, memory and footprint for every process, including root daemons (ps aux, -ef, -o, -p ...). Installed setuid root, like Apple's ps. Rootless and roothide.
+Author: guacforlife
+Name: ps
 
 Package: com.guacforlife.ps
 Version: 1.0.0
@@ -125,6 +222,36 @@ Section: System
 Description: Samples per-process CPU, energy (mW) and memory over an interval, with GPU utilisation, battery-gauge system load, thermal state and battery; pstat -d dumps an IOKit service's properties. Installed setuid root. Rootless and roothide.
 Author: guacforlife
 Name: pstat
+
+Package: com.guacforlife.pstat
+Version: 1.1.0
+Architecture: iphoneos-arm64e
+Maintainer: guacforlife
+Installed-Size: 200
+Filename: debs/com.guacforlife.pstat_1.1.0_iphoneos-arm64e.deb
+Size: 8300
+MD5sum: 65b3db787c3e98788bbc62f8071684ed
+SHA1: a8081664d9c0919c39041ffa8e5e6109afe7299b
+SHA256: 3c2e1406e69cb37c374e8b088c1980cf4c0925bb025372565018007d864be0ea
+Section: System
+Description: Samples per-process CPU, energy (mW) and memory over an interval, with GPU utilisation, battery-gauge system load, thermal state and battery; pstat -d dumps an IOKit service's properties. Installed setuid root. Rootless and roothide.
+Author: guacforlife
+Name: pstat
+
+Package: com.guacforlife.ptop
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: guacforlife
+Installed-Size: 204
+Filename: debs/com.guacforlife.ptop_1.0.0_iphoneos-arm64e.deb
+Size: 13340
+MD5sum: 7c71638d6d5cc4c586f4ea6056b6f3ac
+SHA1: edf73f7f9e3e3c3e88f22c59ef53d7acbacad6dd
+SHA256: 130bccdce6fb12edb15c872697df6229b8b629a77af5b0384d486e5b215bf812
+Section: System
+Description: A macOS-style top under its own name (ptop), so it never replaces a stock top. Per-process CPU, footprint, energy (mW) and suspended apps; memory, swap, battery, thermal and GPU in the header. Interactive, or plain text with -l. Installed setuid root. Rootless and roothide.
+Author: guacforlife
+Name: ptop
 
 Package: com.guacforlife.ptop
 Version: 1.0.0
