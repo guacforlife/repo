@@ -128,6 +128,42 @@ Description: Starts the status bar HUD of Helium automatically after every re-ja
 Author: guacforlife
 Name: HeliumAutoStart
 
+Package: com.guacforlife.heliumautostart
+Version: 1.4.0
+Architecture: iphoneos-arm64e
+Maintainer: guacforlife
+Installed-Size: 652
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.az.heliumautostart
+Replaces: com.az.heliumautostart
+Filename: debs/com.guacforlife.heliumautostart_1.4.0_iphoneos-arm64e.deb
+Size: 18328
+MD5sum: 3be275db64cef5d3471302b1f74bd1d2
+SHA1: 326bdcb7d26108b9e6b3d3f4a95b8c336db7153e
+SHA256: 46a27d96d6e764dfb77bb40bd51a91e894e2a8c097e9b7cc63324d887bcc4113
+Section: System
+Description: Starts the status bar HUD of Helium automatically after every re-jailbreak and after every respring, so there is no need to open Helium and tap Start HUD. Settings > Helium Auto Start hides chosen widgets while chosen apps are open (needs the patched Helium package, which also covers plain reboots).
+Author: guacforlife
+Name: HeliumAutoStart
+
+Package: com.guacforlife.heliumautostart
+Version: 1.4.0
+Architecture: iphoneos-arm64
+Maintainer: guacforlife
+Installed-Size: 548
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.az.heliumautostart
+Replaces: com.az.heliumautostart
+Filename: debs/com.guacforlife.heliumautostart_1.4.0_iphoneos-arm64.deb
+Size: 19562
+MD5sum: 336716a3ab5cc9f11d80588e28a385cc
+SHA1: d17e4a7b34b6d305ed057e4c5dd38ceb01f23cb7
+SHA256: 4405f0a6ad02d8cffcae93d151ec4f1eaa2a75d75b4ecf601a9a12b45c12dc07
+Section: System
+Description: Starts the status bar HUD of Helium automatically after every re-jailbreak and after every respring, so there is no need to open Helium and tap Start HUD. Settings > Helium Auto Start hides chosen widgets while chosen apps are open (needs the patched Helium package, which also covers plain reboots).
+Author: guacforlife
+Name: HeliumAutoStart
+
 Package: com.guacforlife.mapsrecentre
 Version: 0.2.1
 Architecture: iphoneos-arm64
