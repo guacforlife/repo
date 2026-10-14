@@ -94,6 +94,40 @@ Description: Repairs Filza bookmarks and recents that break when roothide's jbro
 Author: guacforlife
 Name: FilzaBookmarkFix
 
+Package: com.guacforlife.heliumautostart
+Version: 1.3.0
+Architecture: iphoneos-arm64e
+Maintainer: guacforlife
+Installed-Size: 236
+Conflicts: com.az.heliumautostart
+Replaces: com.az.heliumautostart
+Filename: debs/com.guacforlife.heliumautostart_1.3.0_iphoneos-arm64e.deb
+Size: 9918
+MD5sum: 081ae46a616346c33deaf79e14d0fe75
+SHA1: f101a40f38f9a16da798545368a70700917212e5
+SHA256: 7ad19e1749f8ba293a49ecb0c27e0c90534a37ea9cd293e5564e73740054881e
+Section: System
+Description: Starts the status bar HUD of Helium automatically after every re-jailbreak, so there is no need to open Helium and tap Start HUD. The widget in the patched Helium package covers plain reboots.
+Author: guacforlife
+Name: HeliumAutoStart
+
+Package: com.guacforlife.heliumautostart
+Version: 1.3.0
+Architecture: iphoneos-arm64
+Maintainer: guacforlife
+Installed-Size: 204
+Conflicts: com.az.heliumautostart
+Replaces: com.az.heliumautostart
+Filename: debs/com.guacforlife.heliumautostart_1.3.0_iphoneos-arm64.deb
+Size: 10510
+MD5sum: 61cdfa7aaa1b1ada99119f01b9308aa1
+SHA1: 9f43ca11f920d1c96fc980423e087d2582f5ebb7
+SHA256: 566cd191873863690214c2f00af0de39bf94a396ef425693d3abd3163e72cb61
+Section: System
+Description: Starts the status bar HUD of Helium automatically after every re-jailbreak, so there is no need to open Helium and tap Start HUD. The widget in the patched Helium package covers plain reboots.
+Author: guacforlife
+Name: HeliumAutoStart
+
 Package: com.guacforlife.mapsrecentre
 Version: 0.2.1
 Architecture: iphoneos-arm64
