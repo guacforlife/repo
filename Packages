@@ -260,6 +260,38 @@ Description: Stops PoomSmart's Polyfills "Header Injection" from proxying all we
 Author: guacforlife
 Name: PolyfillsAuthFix
 
+Package: com.guacforlife.prefsrecall
+Version: 0.2.1
+Architecture: iphoneos-arm64e
+Maintainer: guacforlife
+Installed-Size: 444
+Depends: mobilesubstrate, preferenceloader, com.creaturecoding.shuffle
+Filename: debs/com.guacforlife.prefsrecall_0.2.1_iphoneos-arm64e.deb
+Size: 16590
+MD5sum: 73ca72c1f503919e964031a8cb19e7b2
+SHA1: 6c1ceee268cde3a44238307353d1bf71eb940f5c
+SHA256: fde85deb5e38aaf7013a7fddc60d06342bbd939d920884f1829f8306fd83633b
+Section: Tweaks
+Description: Settings remembers the tweak pane you were on and goes back to it after a respring, opens the pane of a tweak you just installed, and puts a Contacts-style A-Z index on the Tweaks list. For Shuffle's Tweaks section.
+Author: guacforlife
+Name: PrefsRecall
+
+Package: com.guacforlife.prefsrecall
+Version: 0.2.1
+Architecture: iphoneos-arm64
+Maintainer: guacforlife
+Installed-Size: 380
+Depends: mobilesubstrate, preferenceloader, com.creaturecoding.shuffle
+Filename: debs/com.guacforlife.prefsrecall_0.2.1_iphoneos-arm64.deb
+Size: 17454
+MD5sum: 075a2e845494ef8570fde5894804122b
+SHA1: e6b04d07f554c5b8c42f966454db79126c3942a0
+SHA256: a732c35c17c1b3bb73a9ef0a9e2e9250f3c7a33dd0c515fab365221b6d3410bb
+Section: Tweaks
+Description: Settings remembers the tweak pane you were on and goes back to it after a respring, opens the pane of a tweak you just installed, and puts a Contacts-style A-Z index on the Tweaks list. For Shuffle's Tweaks section.
+Author: guacforlife
+Name: PrefsRecall
+
 Package: com.guacforlife.ps
 Version: 1.0.0
 Architecture: iphoneos-arm64e
