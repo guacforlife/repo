@@ -196,6 +196,38 @@ Description: Auto-recentres the Google Maps camera after you pan away during nav
 Author: guacforlife
 Name: MapsRecentre
 
+Package: com.guacforlife.photoscropfav
+Version: 0.1.0
+Architecture: iphoneos-arm64e
+Maintainer: guacforlife
+Installed-Size: 236
+Depends: mobilesubstrate
+Filename: debs/com.guacforlife.photoscropfav_0.1.0_iphoneos-arm64e.deb
+Size: 6520
+MD5sum: e153c80acfcbad63fdb818cd2472f8e4
+SHA1: 67faabd8e540f5c8d0464af2cf7dd09dec7b800f
+SHA256: e710757b3d7a5283701ee18f4d585743d65a1adf9232c8fbf8aa08a4f618df0a
+Section: Tweaks
+Description: Photos: Edit opens straight on the crop tool, and a Favourites tab joins Library, For You, Albums and Search.
+Author: guacforlife
+Name: PhotosCropFav
+
+Package: com.guacforlife.photoscropfav
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Maintainer: guacforlife
+Installed-Size: 204
+Depends: mobilesubstrate
+Filename: debs/com.guacforlife.photoscropfav_0.1.0_iphoneos-arm64.deb
+Size: 6976
+MD5sum: 640634ee71a8284882dc3eb642be7bdc
+SHA1: c2816c7981dbc80616bd6824596b067e9ffb6871
+SHA256: bd884ce8171695bf7b3ea29746327cba3f1d9c1a3214d39e60cacf1cf0b0d035
+Section: Tweaks
+Description: Photos: Edit opens straight on the crop tool, and a Favourites tab joins Library, For You, Albums and Search.
+Author: guacforlife
+Name: PhotosCropFav
+
 Package: com.guacforlife.pinslim
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -482,37 +514,43 @@ Description: Screenshot from the command line, like Android's screencap. Writes 
 Author: guacforlife
 Name: screencap
 
-Package: com.guacforlife.sentinelios17fix
-Version: 1.0.0
+Package: com.guacforlife.sentinelfixesandenhancements
+Version: 1.2.0
 Architecture: iphoneos-arm64e
 Maintainer: guacforlife
-Installed-Size: 168
-Depends: firmware (>= 17.0), mobilesubstrate, xyz.cypwn.sentinel
-Filename: debs/com.guacforlife.sentinelios17fix_1.0.0_iphoneos-arm64e.deb
-Size: 3204
-MD5sum: faaf85604e1b351185d0634704a5c81a
-SHA1: 28597f105a0503ffee2eec5adb8253dcae2ab429
-SHA256: 9ada58a2c2dd3973c45c8eee784f2442ab7ef3e0a70989e2b1605b8702b7d0b7
+Installed-Size: 172
+Depends: mobilesubstrate, xyz.cypwn.sentinel
+Conflicts: com.guacforlife.sentinelios17fix, com.az.sentinelios17fix
+Replaces: com.guacforlife.sentinelios17fix, com.az.sentinelios17fix
+Provides: com.guacforlife.sentinelios17fix
+Filename: debs/com.guacforlife.sentinelfixesandenhancements_1.2.0_iphoneos-arm64e.deb
+Size: 8886
+MD5sum: df4b591a4943fc901da1fd6b984322f6
+SHA1: fa61dad3ed5e1e37b3e014392f7f1e7018e2ec69
+SHA256: 662c79669f7f1caff35c670003bbcc89d2818c878b0c0ff004f26e2a49d06e93
 Section: Tweaks
-Description: Stops Sentinel (xyz.cypwn.sentinel) crashing SpringBoard into safe mode on iOS 17 when it enters its fake shutdown, by restoring the ringer selector it calls.
+Description: Fixes and extras for Sentinel (xyz.cypwn.sentinel). Stops it crashing SpringBoard into safe mode on iOS 17 by restoring the ringer selector it calls (only where it is missing), and sends an optional Pushover alert just before Sentinel takes over (keys PushoverToken and PushoverUser in the com.guacforlife.sentinelfixesandenhancements prefs domain). Replaces SentinelIOS17Fix.
 Author: guacforlife
-Name: SentinelIOS17Fix
+Name: SentinelFixesAndEnhancements
 
-Package: com.guacforlife.sentinelios17fix
-Version: 1.0.0
+Package: com.guacforlife.sentinelfixesandenhancements
+Version: 1.2.0
 Architecture: iphoneos-arm64
 Maintainer: guacforlife
-Installed-Size: 168
-Depends: firmware (>= 17.0), mobilesubstrate, xyz.cypwn.sentinel
-Filename: debs/com.guacforlife.sentinelios17fix_1.0.0_iphoneos-arm64.deb
-Size: 3264
-MD5sum: ab68de67048e9afd1422566c3acc63c6
-SHA1: ef471af6c3463cf3b7f8fe562667103a9ba993f0
-SHA256: 2f8568ce1f7bd13f92e0a6dd232f59beb9f68df5e7e43fa2258a68d96bc9cc95
+Installed-Size: 172
+Depends: mobilesubstrate, xyz.cypwn.sentinel
+Conflicts: com.guacforlife.sentinelios17fix, com.az.sentinelios17fix
+Replaces: com.guacforlife.sentinelios17fix, com.az.sentinelios17fix
+Provides: com.guacforlife.sentinelios17fix
+Filename: debs/com.guacforlife.sentinelfixesandenhancements_1.2.0_iphoneos-arm64.deb
+Size: 8950
+MD5sum: c3cbf7c44d0f0970bba553c403cb282b
+SHA1: ea6608e89ed7069124f50f9950679a2f08cd12d1
+SHA256: dd8b59d0e491be14d0cf79cbd9a9af33e8b77f8fb78ecf18a9cdc241cb279b92
 Section: Tweaks
-Description: Stops Sentinel (xyz.cypwn.sentinel) crashing SpringBoard into safe mode on iOS 17 when it enters its fake shutdown, by restoring the ringer selector it calls.
+Description: Fixes and extras for Sentinel (xyz.cypwn.sentinel). Stops it crashing SpringBoard into safe mode on iOS 17 by restoring the ringer selector it calls (only where it is missing), and sends an optional Pushover alert just before Sentinel takes over (keys PushoverToken and PushoverUser in the com.guacforlife.sentinelfixesandenhancements prefs domain). Replaces SentinelIOS17Fix.
 Author: guacforlife
-Name: SentinelIOS17Fix
+Name: SentinelFixesAndEnhancements
 
 Package: com.guacforlife.tweakiohold
 Version: 0.2.0
